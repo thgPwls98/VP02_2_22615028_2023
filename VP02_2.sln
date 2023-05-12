@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008. Dock Panel", "008. Doc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009. UniformGrid", "009. UniformGrid\009. UniformGrid.csproj", "{B1E04690-B488-4575-938B-BA267C879521}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010. Matching Game", "010. Matching Game\010. Matching Game.csproj", "{EEA92250-2F71-4510-8502-795642645CBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{B1E04690-B488-4575-938B-BA267C879521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E04690-B488-4575-938B-BA267C879521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E04690-B488-4575-938B-BA267C879521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA92250-2F71-4510-8502-795642645CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA92250-2F71-4510-8502-795642645CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA92250-2F71-4510-8502-795642645CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA92250-2F71-4510-8502-795642645CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
