@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009. UniformGrid", "009. Un
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010. Matching Game", "010. Matching Game\010. Matching Game.csproj", "{EEA92250-2F71-4510-8502-795642645CBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011. EIS", "011. EIS\011. EIS.csproj", "{8B14EB9E-649F-47E7-B8C6-8575CF437A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{EEA92250-2F71-4510-8502-795642645CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA92250-2F71-4510-8502-795642645CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA92250-2F71-4510-8502-795642645CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B14EB9E-649F-47E7-B8C6-8575CF437A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B14EB9E-649F-47E7-B8C6-8575CF437A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B14EB9E-649F-47E7-B8C6-8575CF437A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B14EB9E-649F-47E7-B8C6-8575CF437A14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
