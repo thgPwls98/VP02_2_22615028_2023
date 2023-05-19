@@ -65,18 +65,18 @@
                 
                 <StackPanel Orientation="Horizontal" Margin="5">
                     <TextBlock Width="80" Text="연락처: " Margin="5"/>
-                    <TextBox x:Name="Contect" Width="150"/>
+                    <TextBox x:Name="txtContact" Width="150"/>
                 </StackPanel>
                 
                 <StackPanel Orientation="Horizontal" Margin="5">
                     <TextBlock Width="80" Text="기타: " Margin="5"/>
-                    <TextBox x:Name="Comment" Width="150" Height="80" AcceptsReturn="True" 
+                    <TextBox x:Name="txtComment" Width="150" Height="80" AcceptsReturn="True" 
                              AcceptsTab="True" TextWrapping="Wrap" 
                              VerticalScrollBarVisibility="Auto"/>
                 </StackPanel>
 
                 <StackPanel Orientation="Horizontal" Margin="5">
-                    <Button x:Name="btnInsert" Width="100" Height="20" Margin="5,5,30,5">Insert</Button>
+                    <Button x:Name="btnInsert" Width="100" Height="20" Margin="5,5,30,5" Click="btnInsert_Click">Insert</Button>
                     <Button x:Name="btnUpdate" Width="100" Height="20">Update</Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="5">
@@ -85,7 +85,7 @@
                 </StackPanel>
 
                 </StackPanel>
-            <DataGrid Width="540" Margin="5"/>
+            <DataGrid x:Name="dataGrid" Width="540" Margin="5"/>
 
         </StackPanel>
         </StackPanel>
