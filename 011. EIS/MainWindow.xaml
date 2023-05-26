@@ -77,15 +77,15 @@
 
                 <StackPanel Orientation="Horizontal" Margin="5">
                     <Button x:Name="btnInsert" Width="100" Height="20" Margin="5,5,30,5" Click="btnInsert_Click">Insert</Button>
-                    <Button x:Name="btnUpdate" Width="100" Height="20">Update</Button>
+                    <Button x:Name="btnUpdate" Width="100" Height="20" Click="btnUpdate_Click">Update</Button>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="5">
-                    <Button x:Name="btnDelete" Width="100" Height="20" Margin="5,5,30,5">Delete</Button>
-                    <Button x:Name="btnLoadData" Width="100" Height="20">Load Data</Button>
+                    <Button x:Name="btnDelete" Width="100" Height="20" Margin="5,5,30,5" Click="btnDelete_Click">Delete</Button>
+                    <Button x:Name="btnLoadData" Width="100" Height="20" Click="btnLoadData_Click">Load Data</Button>
                 </StackPanel>
 
                 </StackPanel>
-            <DataGrid x:Name="dataGrid" Width="540" Margin="5"/>
+            <DataGrid x:Name="dataGrid" Width="540" Margin="5" SelectionChanged="dataGrid_SelectionChanged"/>
 
         </StackPanel>
         </StackPanel>
